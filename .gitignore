@@ -1,0 +1,56 @@
+# Игнорируемые файлы и папки
+
+# Конфигурационные файлы с паролями (если есть локальные версии)
+config/local_database.php
+
+# Загруженные файлы пользователей
+uploads/documents/*
+!uploads/documents/.gitkeep
+
+# Аватары пользователей
+assets/img/avatars/*
+!assets/img/avatars/.gitkeep
+
+# Логи
+*.log
+logs/
+
+# Временные файлы
+*.tmp
+*.temp
+temp/
+
+# Файлы операционной системы
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE файлы
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Composer
+vendor/
+composer.lock
+
+# Node.js (если используется)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Кэш
+cache/
+*.cache
+
+# Резервные копии
+*.bak
+*.backup
+*.old
+
+# Файлы отладки
+debug.php
+test_*.php
+!test_connection.php
